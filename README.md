@@ -1,5 +1,5 @@
 # PetsMate #
-> Name the product in a way the reader (i.e. your target customers) will understand.
+> This app was designed for pet lovers who are looking for a mate for your beloved one.  
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
