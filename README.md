@@ -1,7 +1,6 @@
-# modern-react-boilerplate
+# PetMate
 
-Basic boilerplate for React 16, Webpack 4, React Router 4.
-A minimal React project boilerplate suitable for quick app prototyping (front-end only option) or as a starting point for app development (full-stack option).
+The app was designed for pet lovers, it will help you find the best mate match for your beloved pet.
 
 ## Features
 
