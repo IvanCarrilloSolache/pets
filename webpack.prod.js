@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
   entry: ['./client/src/Index.js'],
@@ -27,12 +28,13 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
   },
-
-  devServer: {
-    contentBase: './client/dist',
-    host: 'localhost',
-    historyApiFallback: true,
-    // respond to 404s with index.html
-    inline: true,
-  },
+  devtool: 'source-map',
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify('production'),
+      },
+    }),
+    new webpack.NamedModulesPlugin(),
+  ],
 };
