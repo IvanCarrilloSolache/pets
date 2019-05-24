@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import NavBar from "./components/NavBar.js"
+import NavBar from "./components/NavBar.jsx"
+import LogIn from "./components/LogIn.jsx"
 // RHL only for front end development
 //import { hot } from 'react-hot-loader';
 
@@ -9,6 +10,7 @@ class App extends Component {
     return (
         <div>
           <NavBar />
+          <LogIn />
         </div>
     );
   }
