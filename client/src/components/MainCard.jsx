@@ -10,7 +10,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import red from '@material-ui/core/colors/red';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
+import ClearIcon from '@material-ui/icons/Clear';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles(theme => ({
@@ -56,7 +56,7 @@ function Matches() {
       />
       <CardMedia
         className={classes.media}
-        image="/static/images/cards/paella.jpg"
+        image="./assets//image.jpg"
         title="Paella dish"
       />
       <CardContent>
@@ -64,16 +64,15 @@ function Matches() {
           2 years old, eats a lot and bites if you mess with her food
         </Typography>
       </CardContent>
+
       <CardActions disableSpacing>
         <IconButton aria-label="Add to favorites">
           <FavoriteIcon />
         </IconButton>
-        <IconButton aria-label="Share">
-          <ShareIcon />
+        <IconButton aria-label="Clear">
+          <ClearIcon />
         </IconButton>
-        
       </CardActions>
-      
     </Card>
   );
 }

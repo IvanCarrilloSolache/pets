@@ -27,9 +27,9 @@ class App extends Component {
                 />
               </Tabs>
               <Switch>
-                <Route path="/components/MainCard.jsx" render={() => <div>Profile</div>}
+                <Route path="/components/MainCard.jsx" render={() => <div><Matches /></div>}
                 />
-                <Route path="/components/Profile.jsx" render={() => <div>Matches</div>} />
+                <Route path="/components/Profile.jsx" render={() => <div><Profile /></div>} />
               </Switch>
             </Fragment>
           )}
