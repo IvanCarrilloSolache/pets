@@ -12,7 +12,7 @@ import Profile from "./components/Profile.jsx"
 class App extends Component {
   render() {
     return (
-      <div>>
+      <div>
         <LogIn />
       
       <BrowserRouter>
@@ -27,8 +27,7 @@ class App extends Component {
                 />
               </Tabs>
               <Switch>
-                <Route path="/components/MainCard.jsx" render={() => <div><Matches /></div>}
-                />
+                <Route path="/components/MainCard.jsx" render={() => <div><Matches /></div>} />
                 <Route path="/components/Profile.jsx" render={() => <div><Profile /></div>} />
               </Switch>
             </Fragment>

@@ -56,8 +56,8 @@ function Matches() {
       />
       <CardMedia
         className={classes.media}
-        image="./assets//image.jpg"
-        title="Paella dish"
+        image="../assets/woo.jpg"
+        title="wooca"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
