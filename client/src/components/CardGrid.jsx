@@ -2,13 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import Grid from 'material-ui/Grid';
-import Matches from './MainCard.jsx';
 
-/* import Member2 from '../about/team/member2.jsx';
-import Member3 from '../about/team/member3.jsx';
-import Member4 from '../about/team/member4.jsx';
-import Member5 from '../about/team/member5.jsx';
-import Member6 from '../about/team/member6.jsx'; */
+import MatchCard from './MatchCards/MatchCard.jsx';
+import MatchCard1 from './MatchCards/MatchCard1.jsx';
+import MatchCard2 from './MatchCards/MatchCard2.jsx';
+import MatchCard3 from './MatchCards/MatchCard3.jsx';
+import MatchCard4 from './MatchCards/MatchCard4.jsx';
+import MatchCard5 from './MatchCards/MatchCard5.jsx';
 
 const styles = theme => ({
   root: {
@@ -31,24 +31,24 @@ function CardGrid(props) {
         <br />
         <Grid container spacing={4}>
           <Grid item xs>
-            <Matches />
+            <MatchCard />
           </Grid>
           <Grid item xs>
-            <Matches />
+            <MatchCard1 />
           </Grid>
           <Grid item xs>
-            <Matches />
+            <MatchCard2 />
           </Grid>
         </Grid>
         <Grid container spacing={4}>
           <Grid item xs>
-            <Matches />
+            <MatchCard3 />
           </Grid>
           <Grid item xs>
-            <Matches />
+            <MatchCard4 />
           </Grid>
           <Grid item xs>
-            <Matches />
+            <MatchCard5 />
           </Grid>
         </Grid>
       </Grid>

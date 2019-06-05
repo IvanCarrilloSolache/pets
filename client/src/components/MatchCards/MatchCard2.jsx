@@ -36,14 +36,14 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-function Matches() {
+function MatchCard2() {
   const classes = useStyles();
   return (
     <Card className={classes.card}>
       <CardHeader
         avatar={
           <Avatar aria-label="Recipe" className={classes.avatar}>
-            W
+            F
           </Avatar>
         }
         action={
@@ -51,17 +51,20 @@ function Matches() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Wooca"
-        subheader="French Bulldog"
+        title="Fonsie"
+        subheader="German Sheperd"
       />
       <CardMedia
         className={classes.media}
-        image="../assets/woo.jpg"
-        title="wooca"
+        image="../assets/ger.jpg"
+        title="Fonsie"
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          2 years old, eats a lot and bites if you mess with her food
+          2/1 years old, very noble and eage
+        </Typography>
+        <Typography variant="body2" color="textSecondary" component="p">
+          Female
         </Typography>
       </CardContent>
 
@@ -77,4 +80,4 @@ function Matches() {
   );
 }
 
-export default Matches;
+export default MatchCard2;
